@@ -1,4 +1,4 @@
-# Import text-based user interface functions
+# Import text-based user interface function
 from tui import (
     display_title,
     display_main_menu,
@@ -9,7 +9,7 @@ from tui import (
     show_message
 )
 
-# Import data processing functions
+# Import data processing function
 from process import (
     load_data,
     reviews_by_park,
@@ -18,14 +18,14 @@ from process import (
     avg_score_by_park_and_location
 )
 
-# Import visualisation functions
+# Import visualisation function
 from visual import (
     plot_reviews_per_park,
     plot_top_locations_for_park,
     plot_avg_rating_by_month
 )
 
-# Import exporter classes for OOP task
+# Import EXPORTER classes for OOP task
 from exporter import TXTExporter, CSVExporter, JSONExporter
 
 

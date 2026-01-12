@@ -1,4 +1,4 @@
-# Import matplotlib for charts
+# Import matplotlib for chart
 import matplotlib.pyplot as plt
 from collections import Counter, defaultdict
 

@@ -27,7 +27,7 @@ def count_reviews_by_park_and_location(data, park, location):
     )
 
 
-# Calculate average score per year for a park
+# Calculating average score per year for a park
 def average_score_by_year(data, park, year):
     ratings = [
         int(r["Rating"]) for r in data
@@ -37,7 +37,7 @@ def average_score_by_year(data, park, year):
     return round(sum(ratings) / len(ratings), 2) if ratings else 0
 
 
-# Calculate average score per park by reviewer location
+# Calculating average score per park by reviewer location
 def avg_score_by_park_and_location(data):
     results = defaultdict(lambda: defaultdict(list))
 

@@ -33,7 +33,7 @@ class BaseExporter:
         return output
 
 
-# TXT exporter
+# TXT EXPORTER
 class TXTExporter(BaseExporter):
     def export(self):
         data = self.aggregate()
@@ -45,7 +45,7 @@ class TXTExporter(BaseExporter):
         print("Exported data to export.txt")
 
 
-# CSV exporter
+# CSV EXPORTER
 class CSVExporter(BaseExporter):
     def export(self):
         data = self.aggregate()
@@ -63,7 +63,7 @@ class CSVExporter(BaseExporter):
         print("Exported data to export.csv")
 
 
-# JSON exporter
+# JSON EXPORTER
 class JSONExporter(BaseExporter):
     def export(self):
         data = self.aggregate()
